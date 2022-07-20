@@ -3,14 +3,16 @@ import Parent from "./props/Parent";
 import GuestList from "./state/GuestList";
 import UserSearch from "./state/UserSerch";
 import EventComponent from "./events/EventComponent";
+import UserSearchRef from "./refs/userRefsSearch";
 
 const App = () => {
 	return (
 		<div>
-			<EventComponent />
+			<UserSearchRef />
+			{/*<EventComponent />
 			<UserSearch />
 			<GuestList />
-			<Parent />
+	<Parent />*/}
 		</div>
 	);
 };
